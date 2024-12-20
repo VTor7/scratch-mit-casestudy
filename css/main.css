@@ -110,3 +110,16 @@ img {
 
 
 /***End General Component Styles***/
+
+/***Individual Component Styles***/
+
+.color__box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+}
+
+.color__box--border img {
+    border: 1px solid var(--dark-grey);
+}
