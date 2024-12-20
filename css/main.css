@@ -35,6 +35,7 @@ body {
 
 a {
     color: var(--purple);
+    text-decoration: none;
 }
 
 h1 {
@@ -43,6 +44,7 @@ h1 {
     font-weight: 700;
     background-color: var(--purple);
     color: var(--white);
+    margin: 0 40% 0 0;
 }
 
 .page-header {
@@ -97,12 +99,13 @@ img {
     border: 1px solid var(--medium-grey);
     object-fit: contain;
     overflow-x: auto;
-    margin:auto;
+    margin:0 10px 10px 0;
 }
 
 .component__code {
     border: 1px solid var(--medium-grey);
-    margin: auto;
+    margin: 0 10px 10px 0;
+    overflow-x: auto
 }
 
 
