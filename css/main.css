@@ -45,6 +45,13 @@ h1 {
     color: var(--white);
 }
 
+.page-header {
+    background-color: var(--white);
+    color: var(--dark-grey);
+    padding: 20px;
+    text-align: center;
+}
+
 h2 {
     font-family: var(--font-sans-serif);
     font-size: 25px;
@@ -69,7 +76,9 @@ h5 {
     font-weight: 700;
 }
 img {
-    max-width: 100%;
+    block-size: initial;
+    /***max-width: 100%;***/
+    height: auto;
     display: block;
 }
 /***End Global Styles***/
@@ -77,16 +86,23 @@ img {
 /***General Component Styles***/
 
 .component img {
-    max-width: initial;
+    /***max-width: initial;***/
+    block-size: initial;
+    /***max-width: 100%;***/
+    height: auto;
+    display: block;
 }
 
 .component__img {
     border: 1px solid var(--medium-grey);
+    object-fit: contain;
     overflow-x: auto;
+    margin:auto;
 }
 
 .component__code {
     border: 1px solid var(--medium-grey);
+    margin: auto;
 }
 
 
