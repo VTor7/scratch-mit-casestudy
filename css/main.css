@@ -136,3 +136,23 @@ img {
 .video {
     display: block;
 }
+
+.button--round {
+    display: inline-block;
+    background: var(--white);
+    color: var(--dark-green);
+    border: 5px solid var(--dark-green);
+    border-radius: 30px;
+    padding: 5px 25px;
+    
+}
+
+.button--round-page {
+    display: inline-block;
+    background: var(--purple);
+    color: var(--white);
+    border: 5px solid var(--light-blue);
+    border-radius: 30px;
+    padding: 5px 25px;
+
+}
