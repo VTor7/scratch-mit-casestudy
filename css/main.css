@@ -217,7 +217,6 @@ img {
 }
 
 .nav-links-items {
-    border: 1px solid blue;
     background: var(--purple);
     display: flex;
     align-content: center;
@@ -245,4 +244,33 @@ img {
     font-weight: 700;
 }
 /***End Navigation***/
+
+/***Page Buttons***/
+
+.page-button-items {
+    background: var(--light-blue);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.page-button-items li { 
+    background: var(--light-blue);
+    text-decoration: none;
+    display: inline-flex;
+
+}
+
+.page-button-items h5 {
+    padding: 0 2px;
+    margin: 5px;
+    font-family: var(--font-sans-serif);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/***End Page Buttons***/
+
 
