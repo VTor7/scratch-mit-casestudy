@@ -70,6 +70,7 @@ h4 {
     font-family: var(--font-sans-serif);
     font-size: 16px;
     font-weight: 700;
+    margin: 10px 0;
 }
 
 h5 {
@@ -117,10 +118,10 @@ img {
     overflow-x: auto
 }
 
-
 /***End General Component Styles***/
 
 /***Individual Component Styles***/
+
   /***Colors***/
 .color__box {
     display: inline-block;
@@ -128,6 +129,7 @@ img {
     height: 150px;
     margin: 0 10px 10px 0;
 }
+  /***End Colors***/
 
 .color__box--border img {
     border: 1px solid var(--dark-grey);
@@ -136,13 +138,14 @@ img {
 .video {
     display: block;
 }
+  /***End Video***/
 
   /***Buttons***/
 .button--round {
     display: inline-block;
     background: var(--white);
     color: var(--dark-green);
-    border: 5px solid var(--dark-green);
+    border: 2px solid var(--dark-green);
     border-radius: 30px;
     padding: 5px 25px; 
 }
@@ -201,6 +204,8 @@ img {
     padding: 14px 20px 14px 18px;
     margin: 0;
 }
+  /***End Buttons***/
+
   /***Navigation***/
 
 .search {
@@ -243,9 +248,9 @@ img {
     font-size: 14px;
     font-weight: 700;
 }
-/***End Navigation***/
+  /***End Navigation***/
 
-/***Page Buttons***/
+  /***Page Buttons***/
 
 .page-button-items {
     background: var(--light-blue);
@@ -271,6 +276,46 @@ img {
     font-weight: 700;
 }
 
-/***End Page Buttons***/
+  /***End Page Buttons***/
 
+  /***Main Header***/
+
+.alert-bar-items {
+    background: var(--dark-green);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.alert-bar-items li {
+    background: var(--dark-green);
+    text-decoration: none;
+    display: inline-flex;
+    margin: 0 10px 0 0;
+}
+
+.alert-icon i {
+    color: var(--white);
+    padding: 0 10px;
+    align-self: center;
+}
+
+.alert-text h4 {
+    font-family: var(--font-sans-serif);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--white);
+    align-self: center;
+    
+}
+
+.close-button i {
+    background: #225536;
+    padding: 5px;
+    margin-left: 100px;
+    color: var(--white);
+    align-self: center;
+}
 
