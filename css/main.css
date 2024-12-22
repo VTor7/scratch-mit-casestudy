@@ -204,13 +204,45 @@ img {
   /***Navigation***/
 
 .search {
-    border: 10px solid var(--purple);
+    border: 1px solid var(--purple);
     display: block;
     border-radius: 5px;
     padding: 9px 100px 9px 40px;
+    margin: 4px;
     background: var(--dark-purple) url("../img/components/img/search 1.svg") no-repeat 13px;
 }
 
 ::placeholder {
     color: var(--white);
 }
+
+.nav-links-items {
+    border: 1px solid blue;
+    background: var(--purple);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.nav-links-items li {
+    background: var(--purple);
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.nav-logo a {
+    padding: 10px;
+}
+
+.nav-button a {
+    align-content: center;
+    color: var(--white);
+    padding: 10px 20px;
+    font-family: var(--font-sans-serif);
+    font-size: 14px;
+    font-weight: 700;
+}
+/***End Navigation***/
+
