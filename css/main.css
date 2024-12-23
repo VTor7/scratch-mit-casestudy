@@ -21,6 +21,14 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.content-wrapper {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /***End Utility Classes***/
 
 /***Global Styles***/
@@ -45,13 +53,6 @@ h1 {
     background-color: var(--purple);
     color: var(--white);
     margin: 0 40% 0 0;
-}
-
-.page-header {
-    background-color: var(--white);
-    color: var(--dark-grey);
-    padding: 20px;
-    text-align: center;
 }
 
 h2 {
@@ -79,8 +80,56 @@ h5 {
     font-weight: 700;
 }
 
+.header {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 20px;
+    display: flex;
+    margin: 0;
+}
+.header img {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.header nav {
+    display: flex;
+    margin: 0 0 0 auto;    
+}
+
+.header nav li {
+    display: flex;
+    margin: 0 10px 0 0;
+    list-style-type: none;
+}
+
+.page-header {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin: 0;
+
+
+}
+
+.description {
+    font-family: var(--font-sans-serif);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.component {
+    display: block;
+    background: var(--white);
+    margin: 20px 0;
+}
 .component__name-label {
     border: 1px solid var(--medium-grey);
+    background: var(--light-grey);
     font-family: var(--font-sans-serif);
     font-size: 16px;
     font-weight: 700;
@@ -93,6 +142,7 @@ img {
     height: auto;
     display: block;
 }
+
 /***End Global Styles***/
 
 /***General Component Styles***/
@@ -123,17 +173,27 @@ img {
 /***Individual Component Styles***/
 
   /***Colors***/
+
+.color-container {
+    display: flex;
+    margin: 20px 0;
+}
+
 .color__box {
     display: inline-block;
     width: 150px;
     height: 150px;
     margin: 0 10px 10px 0;
+    box-shadow: 1px 1px 1px 1px var(--medium-grey);
+}
+
+.color__box--border img {
+    box-shadow: 1px 1px 1px 1px var(--medium-grey);
+    margin: 0 10px 10px 0;
 }
   /***End Colors***/
 
-.color__box--border img {
-    border: 1px solid var(--dark-grey);
-}
+
   /***Video***/
 .video {
     display: block;
