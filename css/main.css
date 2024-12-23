@@ -259,6 +259,7 @@ img {
     align-content: center;
     justify-content: center;
     padding: 0;
+    margin: 0;
     flex-wrap: nowrap;
 }
 
@@ -378,64 +379,6 @@ img {
 /***End Main Header***/
 
 /***Body***/
-
-/***Featured Projects
-.featured-projects {
-    border: 2px solid brown;
-    display: flex;
-    justify-content: left;
-    max-width:833.5px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.card-header {
-    border: 2px solid green;
-    border: 1px solid #B3B3B3;
-    background-color: var(--light-grey);
-    border-radius:10px 10px 0 0;
-    display: inline-flex;
-    justify-content: left;
-    padding: 5px 10px;
-    margin: 0;
-}
-
-card {
-    border: 2px solid yellow;
-    border: 1px solid #B3B3B3;
-    display: flex;
-    padding: 10px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-
-.project-img {
-    border: 2px solid orange;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin: 0;
-    padding: 10px;
-}
-
-.project-header {
-    border: 2px solid hotpink;
-    color: var(--purple);
-    font-size: 12px;
-    padding: 0 10px;
-    margin: 0;
-
-}
-.project-creator{
-    border: 2px solid blue;
-    color: var(--purple);
-    font-size: 11px;
-    padding: 0 10px;
-    margin: 0;
-}
-***/
 
 .featured-projects {
     display: inline-block;
