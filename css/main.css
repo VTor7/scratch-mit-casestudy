@@ -375,3 +375,123 @@ img {
     flex-wrap: nowrap;
     margin: 0;
 }
+/***End Main Header***/
+
+/***Body***/
+
+/***Featured Projects
+.featured-projects {
+    border: 2px solid brown;
+    display: flex;
+    justify-content: left;
+    max-width:833.5px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card-header {
+    border: 2px solid green;
+    border: 1px solid #B3B3B3;
+    background-color: var(--light-grey);
+    border-radius:10px 10px 0 0;
+    display: inline-flex;
+    justify-content: left;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+card {
+    border: 2px solid yellow;
+    border: 1px solid #B3B3B3;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.project-img {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px;
+}
+
+.project-header {
+    border: 2px solid hotpink;
+    color: var(--purple);
+    font-size: 12px;
+    padding: 0 10px;
+    margin: 0;
+
+}
+.project-creator{
+    border: 2px solid blue;
+    color: var(--purple);
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 0;
+}
+***/
+
+.featured-projects {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.container-header h4 {
+    border: 1px solid var(--medium-grey);
+    margin: 0;
+    background-color: var(--light-grey);
+    border-radius:10px 10px 0 0;
+    padding: 5px 10px;
+}
+
+.featured-projects-items {
+    border: 1px solid var(--medium-grey);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    margin: 0;
+}
+
+.project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.featured-projects-items li {
+    display: block;
+    padding: 0 10px 0 0;
+}
+
+.project img {
+    display: block;
+    width: 148px;
+    height: auto;
+}
+
+.project-header {
+    color: var(--purple);
+    font-size: 14px;
+    padding: auto;
+    margin: auto;
+}
+
+.project-creator {
+    color: var(--purple);
+    font-size: 11px;
+    padding: auto;
+    margin: auto;
+}
+
+i {
+    display: block;
+    color: var(--medium-grey);
+    padding: auto;
+}
+
