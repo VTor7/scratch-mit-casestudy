@@ -199,6 +199,7 @@ img {
 .footer-button i {
     display: inline-flex;
     color: var(--medium-grey);
+    background-color: var(--white);
     border: .25px solid var(--medium-grey);
     border-radius: 0 5px 5px 0;
     padding: 14px 20px 14px 18px;
@@ -383,6 +384,7 @@ img {
 .featured-projects {
     display: inline-block;
     flex-wrap: wrap;
+    margin: 10px;
 }
 
 .container-header h4 {
@@ -438,4 +440,51 @@ i {
     color: var(--medium-grey);
     padding: auto;
 }
+/***End Body***/
+
+/***Footer***/
+
+.footer-container {
+    display: flex;
+    background: var(--light-grey);
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.footer-links-items {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.footer-links li {
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.footer-links a {
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+}
+
+.footer-links h4 {
+    text-align: left;
+}
+
+.footer-info {
+    display: flex;
+    max-width: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    margin: 0;
+}
+
 
