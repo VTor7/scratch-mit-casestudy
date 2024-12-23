@@ -321,6 +321,7 @@ img {
     justify-content: center;
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
     flex-wrap: nowrap;
 }
 
@@ -444,7 +445,7 @@ img {
 .featured-projects {
     display: inline-block;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 10px auto 10px auto;
 }
 
 .container-header h4 {
@@ -511,6 +512,7 @@ i {
     flex-direction: column;
     padding: 20px;
     margin: 0;
+    margin-top: 10px;
     flex-wrap: wrap;
 }
 
